@@ -111,3 +111,77 @@ nav a:hover , nav > i:hover{
 .swiper-pagination{
     background-color: orange;
 }
+
+
+/* Category section  */
+
+.Category{
+    width: 100%;
+    height: 600px;
+    padding: 20px 200px;
+}
+
+.Category > h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Category > .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.Category > .container > .col{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.Category > .container > .col > i{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Category > .container > .col > h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.Category > .container > .col > .link > a{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(255, 145, 0);
+}
+
+.Category > .container > .col > .link > a:hover{
+    color: white;
+    transition: .77s;
+}
+
+/* .................. */
+
+.Category > .container > .col:nth-child(1){
+    background-color: rgb(248, 229, 212);
+}
+
+
+.Category > .container > .col:nth-child(2){
+    background-color: rgb(255, 211, 218);
+}
+
+
+.Category > .container > .col:nth-child(3){
+    background-color: rgb(218, 218, 255);
+}
+
+.Category > .container > .col:nth-child(4){
+    background-color: rgb(255, 216, 216);
+}
