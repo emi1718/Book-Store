@@ -478,3 +478,60 @@ margin-top: -180px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
+
+/* blog  */
+.blog{
+    width: 100%;
+    height: 500px;
+    padding: 0px 200px;
+}
+
+.blog >h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .blog > .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+  }
+
+  .blog > .container > .col{
+    width: 400px;
+    height: 300px;
+    padding: 20px 30px;
+  }
+
+  .blog > .container >.col > .img{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+  }
+
+  .blog > .container > .col > .img > img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .blog > .container > .col > .content > h3{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .blog > .container > .col > .content > p{
+    margin-top: 10px;
+  }
+
+  .blog > .container > .col > .content > .link{
+    margin-top: 20px
+  }
+
+  .blog > .container > .col > .content > .link > a{
+    color: orange;
+    font-size: 20px;
+  }
