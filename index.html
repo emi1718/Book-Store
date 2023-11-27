@@ -1,725 +1,739 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EmiBookStore</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmiBookStore</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="logo.jpg" alt="" />
-      </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Books</a>
-        <a href="#">Magazines</a>
-        <a href="#">Text Books</a>
-        <a href="#">Product</a>
-        <a href="#"><i class="fa-solid fa-heart"></i></a>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <a href="#"><i class="fa-solid fa-user"></i></a>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Hero section  -->
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="" />
+    </div>
 
-    <section class="Hero">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="content">
-              <h2>Soul is a letter</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, itaque.
-              </p>
-
-              <div class="link">
-                <a href="#">Buy Now</a>
-              </div>
-            </div>
-
-            <div class="img">
-              <img src="Assets/images/book3.jpg" alt="" />
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="content">
-              <h2>All the letter</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, itaque.
-              </p>
-
-              <div class="link">
-                <a href="#">Buy Now</a>
-              </div>
-            </div>
-
-            <div class="img">
-              <img src="Assets/images/book4.jpg" alt="" />
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="content">
-              <h2>Mad About The Boy</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, itaque.
-              </p>
-
-              <div class="link">
-                <a href="#">Buy Now</a>
-              </div>
-            </div>
-
-            <div class="img">
-              <img src="Assets/images/book11.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
-    <!-- Category Section  -->
-
-    <section class="Category">
-      <h2>Category</h2>
-
-      <div class="container">
-        <div class="col">
-          <i class="fa-solid fa-image"></i>
-          <h3>Photography</h3>
-
-          <div class="link">
-            <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col">
-          <i class="fa-solid fa-bowl-food"></i>
-          <h3>Food & Dishes</h3>
-
-          <div class="link">
-            <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <i class="fa-solid fa-notes-medical"></i>
-          <h3>Health</h3>
-
-          <div class="link">
-            <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <i class="fa-solid fa-camera"></i>
-          <h3>Biography</h3>
-
-          <div class="link">
-            <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TRENDING BOOKS SECTION  -->
-    <section class="trend">
-      <h2>Trending Books</h2>
-
-      <div class="container">
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book1.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book2.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book3.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book4.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book5.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book6.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book7.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book8.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book9.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book10.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- DEALS SECTION  -->
-
-    <section class="deal">
-      <div class="container">
-        <div class="col">
-          <img src="Assets/images/banner1.jpg" alt="" />
-          <div class="content">
-            <h3>20% Off</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            <div class="link">
-              <a href="#">More Detail</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <img src="Assets/images/banner3.jpg" alt="" />
-          <div class="content">
-            <h3>20% Off</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            <div class="link">
-              <a href="#">More Detail</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LATEST BOOKS SECTION  -->
-
-    <section class="latest">
-      <h2>Latest Books</h2>
-      <div class="container">
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book1.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book2.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book3.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book4.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book5.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book6.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book7.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book8.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book9.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="img">
-            <img src="Assets/images/book10.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3>Book Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <div class="rating">
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-              <i class="fa-solid fa-star" style="color: #ffc800"></i>
-            </div>
-          </div>
-          <div class="link">
-            <a href="#">Buy Now</a>
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-<!-- BANNER SECTION  -->
-<section class="banner">
-  <div class="container">
-    <img src="Assets/images/banner4.jpg" alt="banner">
-    <div class="content">
-      <h3>Get 10% Off Your Order</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aperiam!</p>
-
-      <form action="#">
-        <input type="text" placeholder="Find Your Favourite Book"><button>Search</button>
+    <nav id="menu">
+      <a href="index.html">Home</a>
+      <a href="#">Books</a>
+      <a href="#">Magazines</a>
+      <a href="#">Text Books</a>
+      <a href="#">Product</a>
+      <a href="#" class="_icon"><i class="fa-solid fa-heart"></i></a>
+      <i class="fa-solid fa-magnifying-glass _icon" onclick="search()"></i>
+      <a href="login.html"><i class="fa-solid fa-user _icon"></i></a>
+      <form>
+        <input type="text" placeholder="Search Here"><button type="submit">Search</button>
       </form>
+    </nav>
+    <div class="responsive-bar"> <a href="#"><i class="fa-solid fa-heart"></i></a>
+      <a href="login.html"><i class="fa-solid fa-user"></i></a>
+      <i class="fa-solid fa-bars" id="menu-bar"></i>
     </div>
-  </div>
-</section>
 
-<section class="blog">
-  <h2>Latest Blogs</h2>
-  <div class="container">
-   
-    <div class="col">
-      <div class="img">
-        <img src="Assets/images/blog-health.jpg" alt="">
+  </header>
+
+  <section class="Search">
+    <form id="Search_form">
+      <input type="text" placeholder="Search Here ... "><button>Search</button>
+    </form>
+  </section>
+  <!-- Hero section  -->
+
+  <section class="Hero">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="content">
+            <h2>Soul is a letter</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, itaque.
+            </p>
+
+            <div class="link">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="img">
+            <img src="Assets/images/book3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content">
+            <h2>All the letter</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, itaque.
+            </p>
+
+            <div class="link">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="img">
+            <img src="Assets/images/book4.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content">
+            <h2>Mad About The Boy</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, itaque.
+            </p>
+
+            <div class="link">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="img">
+            <img src="Assets/images/book11.jpg" alt="" />
+          </div>
+        </div>
       </div>
-      <div class="content">
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Category Section  -->
+
+  <section class="Category">
+    <h2>Category</h2>
+
+    <div class="container">
+      <div class="col">
+        <i class="fa-solid fa-image"></i>
+        <h3>Photography</h3>
+
+        <div class="link">
+          <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-bowl-food"></i>
+        <h3>Food & Dishes</h3>
+
+        <div class="link">
+          <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <i class="fa-solid fa-notes-medical"></i>
         <h3>Health</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur? Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, !</p>
+
         <div class="link">
-          <a href="#">Read More</a>
+          <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
-   
-    </div>
- 
-    <div class="col">
-      <div class="img">
-        <img src="Assets/images/blog-education.jpg" alt="">
+
+      <div class="col">
+        <i class="fa-solid fa-camera"></i>
+        <h3>Biography</h3>
+
+        <div class="link">
+          <a href="#">Show Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- TRENDING BOOKS SECTION  -->
+  <section class="trend">
+    <h2>Trending Books</h2>
+
+    <div class="container">
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book5.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book7.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book8.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book9.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book10.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEALS SECTION  -->
+
+  <section class="deal">
+    <div class="container">
+      <div class="col">
+        <img src="Assets/images/banner1.jpg" alt="" />
+        <div class="content">
+          <h3>20% Off</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <div class="link">
+            <a href="#">More Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="Assets/images/banner3.jpg" alt="" />
+        <div class="content">
+          <h3>20% Off</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <div class="link">
+            <a href="#">More Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST BOOKS SECTION  -->
+
+  <section class="latest">
+    <h2>Latest Books</h2>
+    <div class="container">
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book5.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book7.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book8.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book9.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/book10.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Book Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+            <i class="fa-solid fa-star" style="color: #ffc800"></i>
+          </div>
+        </div>
+        <div class="link">
+          <a href="#">Buy Now</a>
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BANNER SECTION  -->
+  <section class="banner">
+    <div class="container">
+      <img src="Assets/images/banner4.jpg" alt="banner">
       <div class="content">
-        <h3>Education</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur? Ea in, quam aliquam quo ratione, impedit eius facere qui dicta,!</p>
-        <div class="link">
-          <a href="#">Read More</a>
-        </div>
+        <h3>Get 10% Off Your Order</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aperiam!</p>
+
+        <form action="#">
+          <input type="text" placeholder="Find Your Favourite Book"><button>Search</button>
+        </form>
       </div>
-   
     </div>
- 
+  </section>
+
+  <section class="blog">
+    <h2>Latest Blogs</h2>
+    <div class="container">
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/blog-health.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Health</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur?
+            Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, !</p>
+          <div class="link">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/blog-education.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Education</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur?
+            Ea in, quam aliquam quo ratione, impedit eius facere qui dicta,!</p>
+          <div class="link">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/blog-travel.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Travel</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur?
+            Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, </p>
+          <div class="link">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col">
+        <div class="img">
+          <img src="Assets/images/blog-food.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Food</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur?
+            Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, </p>
+          <div class="link">
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
     <div class="col">
-      <div class="img">
-        <img src="Assets/images/blog-travel.jpg" alt="">
-      </div>
-      <div class="content">
-        <h3>Travel</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur? Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, </p>
-        <div class="link">
-          <a href="#">Read More</a>
-        </div>
-      </div>
-   
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iure commodi voluptatibus, explicabo
+        distinctio maxime inventore voluptas suscipit non </p>
     </div>
- 
 
     <div class="col">
-      <div class="img">
-        <img src="Assets/images/blog-food.jpg" alt="">
-      </div>
-      <div class="content">
-        <h3>Food</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque magni distinctio aspernatur? Ea in, quam aliquam quo ratione, impedit eius facere qui dicta, </p>
-        <div class="link">
-          <a href="#">Read More</a>
-        </div>
-      </div>
-   
+      <h3>SiteMap</h3>
+      <a href="#">Home</a>
+      <a href="#">Books</a>
+      <a href="#">Magazines</a>
+      <a href="#">Text Books</a>
+      <a href="#">Product</a>
     </div>
- 
-  </div>
-</section>
 
-<footer>
-  <div class="col">
-    <h3>About Us</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iure commodi voluptatibus, explicabo distinctio maxime inventore voluptas suscipit non </p>
-  </div>
-
-  <div class="col">
-    <h3>SiteMap</h3>
-    <a href="#">Home</a>
-        <a href="#">Books</a>
-        <a href="#">Magazines</a>
-        <a href="#">Text Books</a>
-        <a href="#">Product</a>
-  </div>
-
-  <div class="col">
-    <h3>Address</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto nulla tenetur ullam </p>
-  </div>
-
-  <div class="col">
-    <h3>Contact</h3>
-    <p>+92 3172741949</p>
-    <p>emrankhan41949@gmail.com</p>
-    <div class="link">
-      <a href="#"><i class="fa-brands fa-facebook" style="color: #0f67ff;"></i></a>
-
-      <a href="#"><i class="fa-brands fa-instagram" style="color: #ff7b00;"></i></a>
-
-      <a href=""><i class="fa-brands fa-twitter" style="color: #005eff;"></i></a>
-
-      <a href=""><i class="fa-brands fa-whatsapp" style="color: #10eb00;"></i></a>
+    <div class="col">
+      <h3>Address</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto nulla tenetur ullam </p>
     </div>
-  </div>
+
+    <div class="col">
+      <h3>Contact</h3>
+      <p>+92 3172741949</p>
+      <p>emrankhan41949@gmail.com</p>
+      <div class="link">
+        <a href="#"><i class="fa-brands fa-facebook" style="color: #0f67ff;"></i></a>
+
+        <a href="#"><i class="fa-brands fa-instagram" style="color: #ff7b00;"></i></a>
+
+        <a href=""><i class="fa-brands fa-twitter" style="color: #005eff;"></i></a>
+
+        <a href=""><i class="fa-brands fa-whatsapp" style="color: #10eb00;"></i></a>
+      </div>
+    </div>
 
 
-</footer>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
